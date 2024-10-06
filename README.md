@@ -10,18 +10,15 @@ Step 1: Install Required Libraries
 Step 2: Import Required Libraries
 
 Step 3: Load and Explore the Dataset
-     
-      Assuming you have a CSV file with women's clothing reviews, the first step is to load the data.
+     Assuming you have a CSV file with women's clothing reviews, the first step is to load the data.
       
 Step 4: Preprocess the Data
-      
-      You'll likely need to clean and preprocess the text data before applying the Naive Bayes model. This might involve removing missing values, tokenizing text, and vectorizing it.
+        You'll likely need to clean and preprocess the text data before applying the Naive Bayes model. This might involve removing missing values, tokenizing text, and vectorizing it.
       
 Step 5: Split the Data into Training and Test Sets
 
 Step 6: Vectorize the Text Data
-
-     Since Naive Bayes doesn't handle raw text directly, we need to convert text into numerical features using CountVectorizer.
+        Since Naive Bayes doesn't handle raw text directly, we need to convert text into numerical features using CountVectorizer.
      
 Step 7: Build and Train the Naive Bayes Classifier
 
